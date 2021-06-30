@@ -26,6 +26,18 @@ class BookCoverSlider extends StatelessWidget {
         physics: BouncingScrollPhysics(),
         controller: _bloc.pageController,
         onPageChanged: (index) {
+          if (index == 2) {
+            SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+              statusBarIconBrightness: Brightness.light,
+              statusBarColor: Colors.transparent,
+            ));
+          } else {
+            SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+              statusBarIconBrightness: Brightness.dark,
+              statusBarColor: Colors.transparent,
+            ));
+          }
+
           if (_controller.isCompleted) _controller.repeat();
           _bloc.pageChange(index);
         },
@@ -49,11 +61,6 @@ class BookPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-      statusBarIconBrightness: Brightness.light,
-      statusBarColor: Colors.transparent,
-    ));
-
     return Container(
       child: Column(
         children: [
