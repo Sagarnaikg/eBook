@@ -5,9 +5,9 @@ Online ebook reader app with cool animation
 
 ## Demo
 
-Insert gif or link to demo
+![App Screenshot](https://github.com/Sagarnaikg/eBook/blob/master/demo.gif)
 
-  ## Installation 
+## Installation 
 
 
 You can try our app by running below commands
@@ -23,6 +23,6 @@ Or You can directly install our app through the .apk file which will be publishe
     
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/Sagarnaikg/eBook/blob/master/ebook.png)
 
   
