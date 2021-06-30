@@ -1,16 +1,28 @@
-# ebook
 
-A new Flutter project.
+# eBook reader
 
-## Getting Started
+Online ebook reader app with cool animation
 
-This project is a starting point for a Flutter application.
+## Demo
 
-A few resources to get you started if this is your first Flutter project:
+Insert gif or link to demo
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  ## Installation 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+You can try our app by running below commands
+
+```bash 
+    git clone https://github.com/Sagarnaikg/ebook/
+    cd ebook
+    Flutter run
+```
+( Make sure to install Flutter sdk before runing the project )
+
+Or You can directly install our app through the .apk file which will be published soon.
+    
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+  
